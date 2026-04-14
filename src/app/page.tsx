@@ -43,7 +43,7 @@ export default function LandingPage() {
       logoText="Wild Hebridean Swimming"
       description="Join our intimate retreats across the Inner Hebrides and become part of a thriving community immersed in wild waters, island culture, and ancient heritage. From gentle dips to epic odysseys—every swim rewires your spirit."
       buttons={[{ text: "Discover Your Retreat", href: "#products" }]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/a-wide-cinematic-shot-of-a-cold-crystal--1776152603730-50fb3a7e.png"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/a-wide-cinematic-shot-of-a-cold-crystal--1776152603730-50fb3a7e.png?_wi=1"
       imageAlt="Immersive coldwater swimming in the Inner Hebrides"
     />
   </div>
@@ -91,7 +91,7 @@ export default function LandingPage() {
         { id: "p2", brand: "Growth", name: "Island Heritage Odyssey", price: "£1,200", rating: 5, reviewCount: "24", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/abstract-but-clear-photograph-of-a-sunri-1776152661697-62d05ed4.png" },
         { id: "p3", brand: "Deep", name: "The Wild Water Immersion", price: "£1,850", rating: 5, reviewCount: "18", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/a-beautiful-shot-of-a-path-winding-throu-1776152670551-d2f6fd56.png" },
         { id: "p4", brand: "Apex", name: "Advanced Hebridean Expedition", price: "£2,400", rating: 5, reviewCount: "9", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/high-quality-focused-detail-of-a-warm-wo-1776152679611-d0f6140f.png" },
-        { id: "p5", brand: "Custom", name: "Bespoke Island Discovery", price: "£3,000", rating: 5, reviewCount: "5", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/wide-dramatic-shot-of-an-island-beach-at-1776152691165-4b57dc5e.png" },
+        { id: "p5", brand: "Custom", name: "Bespoke Island Discovery", price: "£3,000", rating: 5, reviewCount: "5", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/wide-dramatic-shot-of-an-island-beach-at-1776152691165-4b57dc5e.png?_wi=1" },
         { id: "p6", brand: "Group", name: "Private Community Retreat", price: "£5,000", rating: 5, reviewCount: "15", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/shot-of-fresh-local-island-food-or-produ-1776152698948-567f2c59.png" },
       ]}
       title="Our Retreat Offerings"
@@ -118,7 +118,7 @@ export default function LandingPage() {
       description="Reach out to our team to find the perfect retreat experience or ask any questions about our upcoming journeys."
       background={{ variant: "sparkles-gradient" }}
       useInvertedBackground={false}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/wide-dramatic-shot-of-an-island-beach-at-1776152691165-4b57dc5e.png"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/wide-dramatic-shot-of-an-island-beach-at-1776152691165-4b57dc5e.png?_wi=2"
       imageAlt="Contact us"
     />
   </div>
@@ -126,7 +126,7 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterMedia
       logoText="Wild Hebridean"
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/a-wide-cinematic-shot-of-a-cold-crystal--1776152603730-50fb3a7e.png"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/a-wide-cinematic-shot-of-a-cold-crystal--1776152603730-50fb3a7e.png?_wi=2"
       columns={[
         { title: "Retreats", items: [{ label: "Introduction", href: "#products" }, { label: "Odyssey", href: "#products" }, { label: "Expeditions", href: "#products" }] },
         { title: "Company", items: [{ label: "About Us", href: "#about" }, { label: "Philosophy", href: "#features" }, { label: "Contact", href: "#contact" }] },
