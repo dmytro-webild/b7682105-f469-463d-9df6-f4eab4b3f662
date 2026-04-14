@@ -2,14 +2,14 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactCenter from '@/components/sections/contact/ContactCenter';
+import ContactText from '@/components/sections/contact/ContactText';
 import FeatureCardTwentySeven from '@/components/sections/feature/FeatureCardTwentySeven';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
 import HeroLogo from '@/components/sections/hero/HeroLogo';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import SplitAbout from '@/components/sections/about/SplitAbout';
-import TestimonialCardFifteen from '@/components/sections/testimonial/TestimonialCardFifteen';
+import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
 
 export default function LandingPage() {
   return (
@@ -131,24 +131,24 @@ export default function LandingPage() {
   </div>
 
   <div id="testimonials" data-section="testimonials">
-      <TestimonialCardFifteen
+      <TestimonialCardSix
+        animationType="blur-reveal"
+        textboxLayout="split"
         useInvertedBackground={true}
-        rating={5}
-        testimonial="The Hebridean retreats are truly life-changing. Every swim feels like coming home to the ocean."
-        author="Sarah J. - Growth Co."
-        avatars={[{ src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/portrait-of-an-adventurous-woman-in-her--1776152708709-299ce948.png", alt: "Sarah J." }]}
-        ratingAnimation="blur-reveal"
-        avatarsAnimation="blur-reveal"
+        title="Community Voices"
+        description="Hear what our swimmers have to say about their experience in the Hebrides."
+        testimonials={[
+            { id: "1", name: "Sarah J.", handle: "@sarahj", testimonial: "The Hebridean retreats are truly life-changing. Every swim feels like coming home to the ocean.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/portrait-of-an-adventurous-woman-in-her--1776152708709-299ce948.png" }
+        ]}
       />
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactCenter
+      <ContactText
       useInvertedBackground={false}
       background={{ variant: "sparkles-gradient" }}
-      tag="Get in touch"
-      title="Begin Your Adventure"
-      description="Ready to take the plunge? Reach out to our team to find the perfect retreat experience or ask any questions about our upcoming journeys."
+      text="Ready to take the plunge? Reach out to our team to find the perfect retreat experience or ask any questions about our upcoming journeys."
+      buttons={[{ text: "Contact Us" }]}
     />
   </div>
 
