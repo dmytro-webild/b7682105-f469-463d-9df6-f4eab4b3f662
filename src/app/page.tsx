@@ -2,14 +2,14 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactCTA from '@/components/sections/contact/ContactCTA';
+import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FeatureCardTwentySeven from '@/components/sections/feature/FeatureCardTwentySeven';
-import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
+import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
 import HeroLogo from '@/components/sections/hero/HeroLogo';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import SplitAbout from '@/components/sections/about/SplitAbout';
-import TestimonialCardSixteen from '@/components/sections/testimonial/TestimonialCardSixteen';
+import TestimonialCardFifteen from '@/components/sections/testimonial/TestimonialCardFifteen';
 
 export default function LandingPage() {
   return (
@@ -30,21 +30,13 @@ export default function LandingPage() {
       <NavbarStyleApple
       navItems={[
         {
-          name: "Home",
-          id: "hero",
-        },
+          name: "Home",          id: "hero"},
         {
-          name: "Philosophy",
-          id: "about",
-        },
+          name: "Philosophy",          id: "about"},
         {
-          name: "Retreats",
-          id: "products",
-        },
+          name: "Retreats",          id: "products"},
         {
-          name: "Join Us",
-          id: "contact",
-        },
+          name: "Join Us",          id: "contact"},
       ]}
       brandName="Wild Hebridean"
     />
@@ -56,9 +48,7 @@ export default function LandingPage() {
       description="Join our intimate retreats across the Inner Hebrides and become part of a thriving community immersed in wild waters, island culture, and ancient heritage. From gentle dips to epic odysseys—every swim rewires your spirit."
       buttons={[
         {
-          text: "Discover Your Retreat",
-          href: "#products",
-        },
+          text: "Discover Your Retreat",          href: "#products"},
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/a-wide-cinematic-shot-of-a-cold-crystal--1776152603730-50fb3a7e.png"
       imageAlt="Immersive coldwater swimming in the Inner Hebrides"
@@ -73,17 +63,11 @@ export default function LandingPage() {
       description="We believe that the wild waters of the Hebrides offer more than just a swim; they offer a mirror to your own strength and a gateway to ancient island heritage. Our retreats are designed to strip away the noise of modern life, allowing you to reconnect with the rhythms of the land and sea, alongside a community that cherishes the cold."
       bulletPoints={[
         {
-          title: "Physical Challenge",
-          description: "From gentle introductory dips to challenging open-water odysseys.",
-        },
+          title: "Physical Challenge",          description: "From gentle introductory dips to challenging open-water odysseys."},
         {
-          title: "Cultural Immersion",
-          description: "Engage with island history, heritage, and local communities.",
-        },
+          title: "Cultural Immersion",          description: "Engage with island history, heritage, and local communities."},
         {
-          title: "Deep Belonging",
-          description: "Become part of a thriving, supportive community of wild swimmers.",
-        },
+          title: "Deep Belonging",          description: "Become part of a thriving, supportive community of wild swimmers."},
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/an-intimate-authentic-group-of-people-ga-1776152614017-cb47a56a.png"
       imageAlt="Community gathering after a cold water swim"
@@ -98,32 +82,17 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         {
-          id: "1",
-          title: "Resilience",
-          descriptions: [
-            "Build mental toughness and physical vitality.",
-          ],
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/close-up-high-quality-shot-of-cold-water-1776152623238-eafe9009.png",
-          imageAlt: "Raw nature water texture",
-        },
+          id: "1",          title: "Resilience",          descriptions: [
+            "Build mental toughness and physical vitality."],
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/close-up-high-quality-shot-of-cold-water-1776152623238-eafe9009.png",          imageAlt: "Raw nature water texture"},
         {
-          id: "2",
-          title: "Heritage",
-          descriptions: [
-            "Explore the ancient stories written in island stone.",
-          ],
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/minimalist-shot-of-ancient-island-stone--1776152633246-415e761a.png",
-          imageAlt: "Stone cairn in Scotland",
-        },
+          id: "2",          title: "Heritage",          descriptions: [
+            "Explore the ancient stories written in island stone."],
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/minimalist-shot-of-ancient-island-stone--1776152633246-415e761a.png",          imageAlt: "Stone cairn in Scotland"},
         {
-          id: "3",
-          title: "Connection",
-          descriptions: [
-            "Forge deep friendships within our community.",
-          ],
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/group-of-swimmers-walking-out-of-the-wat-1776152643226-d28c8573.png",
-          imageAlt: "Swimmers cheering each other",
-        },
+          id: "3",          title: "Connection",          descriptions: [
+            "Forge deep friendships within our community."],
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/group-of-swimmers-walking-out-of-the-wat-1776152643226-d28c8573.png",          imageAlt: "Swimmers cheering each other"},
       ]}
       title="The Hebridean Philosophy"
       description="Everything we do is underpinned by the values of respect, resilience, and curiosity. Our retreats offer pathways for every individual journey."
@@ -138,59 +107,23 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "p1",
-          brand: "Entry",
-          name: "The Coastal Introduction",
-          price: "£850",
-          rating: 5,
-          reviewCount: "12",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/a-conceptual-high-end-photograph-of-a-tr-1776152653134-14b7c459.png",
-        },
+          id: "p1",          brand: "Entry",          name: "The Coastal Introduction",          price: "£850",          rating: 5,
+          reviewCount: "12",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/a-conceptual-high-end-photograph-of-a-tr-1776152653134-14b7c459.png"},
         {
-          id: "p2",
-          brand: "Growth",
-          name: "Island Heritage Odyssey",
-          price: "£1,200",
-          rating: 5,
-          reviewCount: "24",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/abstract-but-clear-photograph-of-a-sunri-1776152661697-62d05ed4.png",
-        },
+          id: "p2",          brand: "Growth",          name: "Island Heritage Odyssey",          price: "£1,200",          rating: 5,
+          reviewCount: "24",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/abstract-but-clear-photograph-of-a-sunri-1776152661697-62d05ed4.png"},
         {
-          id: "p3",
-          brand: "Deep",
-          name: "The Wild Water Immersion",
-          price: "£1,850",
-          rating: 5,
-          reviewCount: "18",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/a-beautiful-shot-of-a-path-winding-throu-1776152670551-d2f6fd56.png",
-        },
+          id: "p3",          brand: "Deep",          name: "The Wild Water Immersion",          price: "£1,850",          rating: 5,
+          reviewCount: "18",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/a-beautiful-shot-of-a-path-winding-throu-1776152670551-d2f6fd56.png"},
         {
-          id: "p4",
-          brand: "Apex",
-          name: "Advanced Hebridean Expedition",
-          price: "£2,400",
-          rating: 5,
-          reviewCount: "9",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/high-quality-focused-detail-of-a-warm-wo-1776152679611-d0f6140f.png",
-        },
+          id: "p4",          brand: "Apex",          name: "Advanced Hebridean Expedition",          price: "£2,400",          rating: 5,
+          reviewCount: "9",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/high-quality-focused-detail-of-a-warm-wo-1776152679611-d0f6140f.png"},
         {
-          id: "p5",
-          brand: "Custom",
-          name: "Bespoke Island Discovery",
-          price: "£3,000",
-          rating: 5,
-          reviewCount: "5",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/wide-dramatic-shot-of-an-island-beach-at-1776152691165-4b57dc5e.png",
-        },
+          id: "p5",          brand: "Custom",          name: "Bespoke Island Discovery",          price: "£3,000",          rating: 5,
+          reviewCount: "5",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/wide-dramatic-shot-of-an-island-beach-at-1776152691165-4b57dc5e.png"},
         {
-          id: "p6",
-          brand: "Group",
-          name: "Private Community Retreat",
-          price: "£5,000",
-          rating: 5,
-          reviewCount: "15",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/shot-of-fresh-local-island-food-or-produ-1776152698948-567f2c59.png",
-        },
+          id: "p6",          brand: "Group",          name: "Private Community Retreat",          price: "£5,000",          rating: 5,
+          reviewCount: "15",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/shot-of-fresh-local-island-food-or-produ-1776152698948-567f2c59.png"},
       ]}
       title="Our Retreat Offerings"
       description="Choose the transformative journey that calls to you."
@@ -198,138 +131,49 @@ export default function LandingPage() {
   </div>
 
   <div id="testimonials" data-section="testimonials">
-      <TestimonialCardSixteen
-      animationType="slide-up"
-      textboxLayout="default"
-      useInvertedBackground={true}
-      testimonials={[
-        {
-          id: "1",
-          name: "Sarah J.",
-          role: "Professional",
-          company: "Growth Co.",
-          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/portrait-of-an-adventurous-woman-in-her--1776152708709-299ce948.png",
-        },
-        {
-          id: "2",
-          name: "Mark D.",
-          role: "Architect",
-          company: "Studio Urban",
-          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/portrait-of-a-man-in-his-late-50s-lookin-1776152718795-cf0a56e6.png",
-        },
-        {
-          id: "3",
-          name: "Elena R.",
-          role: "Wellness Coach",
-          company: "Inner Peace",
-          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/portrait-of-a-woman-in-her-30s-looking-v-1776152732007-2d39e3f0.png",
-        },
-        {
-          id: "4",
-          name: "David L.",
-          role: "Entrepreneur",
-          company: "Tech Lab",
-          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/portrait-of-an-active-man-in-his-40s-loo-1776152742051-55cbddd3.png",
-        },
-        {
-          id: "5",
-          name: "Clara V.",
-          role: "Traveler",
-          company: "Nomad Life",
-          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/portrait-of-a-happy-wellness-traveler-vi-1776152752410-43bf022e.png",
-        },
-      ]}
-      kpiItems={[
-        {
-          value: "500+",
-          label: "Swimmers Joined",
-        },
-        {
-          value: "12",
-          label: "Island Locations",
-        },
-        {
-          value: "98%",
-          label: "Repeat Guests",
-        },
-      ]}
-      title="Stories from the Waters"
-      description="Hear from our community about how the Hebrides have changed them."
-    />
+      <TestimonialCardFifteen
+        useInvertedBackground={true}
+        rating={5}
+        testimonial="The Hebridean retreats are truly life-changing. Every swim feels like coming home to the ocean."
+        author="Sarah J. - Growth Co."
+        avatars={[{ src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/portrait-of-an-adventurous-woman-in-her--1776152708709-299ce948.png", alt: "Sarah J." }]}
+        ratingAnimation="blur-reveal"
+        avatarsAnimation="blur-reveal"
+      />
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactCTA
+      <ContactCenter
       useInvertedBackground={false}
-      background={{
-        variant: "sparkles-gradient",
-      }}
+      background={{ variant: "sparkles-gradient" }}
       tag="Get in touch"
       title="Begin Your Adventure"
       description="Ready to take the plunge? Reach out to our team to find the perfect retreat experience or ask any questions about our upcoming journeys."
-      buttons={[
-        {
-          text: "Contact Us",
-          href: "mailto:hello@wildhebridean.com",
-        },
-      ]}
     />
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterBaseCard
+      <FooterBaseReveal
       logoText="Wild Hebridean"
       columns={[
         {
-          title: "Retreats",
-          items: [
-            {
-              label: "Introduction",
-              href: "#products",
-            },
-            {
-              label: "Odyssey",
-              href: "#products",
-            },
-            {
-              label: "Expeditions",
-              href: "#products",
-            },
+          title: "Retreats",          items: [
+            { label: "Introduction", href: "#products" },
+            { label: "Odyssey", href: "#products" },
+            { label: "Expeditions", href: "#products" },
           ],
         },
         {
-          title: "Company",
-          items: [
-            {
-              label: "About Us",
-              href: "#about",
-            },
-            {
-              label: "Philosophy",
-              href: "#features",
-            },
-            {
-              label: "Contact",
-              href: "#contact",
-            },
+          title: "Company",          items: [
+            { label: "About Us", href: "#about" },
+            { label: "Philosophy", href: "#features" },
+            { label: "Contact", href: "#contact" },
           ],
         },
         {
-          title: "Legal",
-          items: [
-            {
-              label: "Privacy Policy",
-              href: "#",
-            },
-            {
-              label: "Terms of Service",
-              href: "#",
-            },
+          title: "Legal",          items: [
+            { label: "Privacy Policy", href: "#" },
+            { label: "Terms of Service", href: "#" },
           ],
         },
       ]}
