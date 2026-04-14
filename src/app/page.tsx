@@ -117,6 +117,7 @@ export default function LandingPage() {
       title="Ready to take the plunge?"
       description="Reach out to our team to find the perfect retreat experience or ask any questions about our upcoming journeys."
       background={{ variant: "sparkles-gradient" }}
+      useInvertedBackground={false}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C76psWa1Ldnf5Slob3nL0eb9Zn/wide-dramatic-shot-of-an-island-beach-at-1776152691165-4b57dc5e.png"
       imageAlt="Contact us"
     />
